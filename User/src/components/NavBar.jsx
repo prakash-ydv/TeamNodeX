@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { CiMenuBurger } from "react-icons/ci";
 function NavBar() {
   return (
     <div>
@@ -11,6 +11,8 @@ function NavBar() {
             <li>Report Issue</li>
             <li>Login</li>
         </ul>
+
+        <CiMenuBurger />
        </div>
     </div>
   )
