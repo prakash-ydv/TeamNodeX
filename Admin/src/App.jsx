@@ -2,7 +2,10 @@ import React from "react";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 const router = createBrowserRouter([
-  
+  {
+    path: "/hello",
+    element: <p>Hello</p>,
+  },
 ]);
 
 function App() {
