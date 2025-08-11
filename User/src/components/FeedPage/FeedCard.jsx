@@ -1,7 +1,7 @@
 import React from "react";
 function FeedCard() {
   return (
-    <div className="flex gap-5 pl-6">
+    <div className="grid grid-cols-1 gap-5 pl-6 md:hidden">
       <div className="border-1 justify-center h-70 w-120 rounded-lg relative">
         <img
           src="https://thelivenagpur.com/wp-content/uploads/2019/10/DSC_7535.jpg"
@@ -52,7 +52,7 @@ function FeedCard() {
         </div>
 
       </div>
-      <div className="border-1 justify-center h-70 w-120 rounded-lg relative">
+      <div className="md:hidden  border-1 justify-center h-70 w-120 rounded-lg relative">
         <img
           src="https://thelivenagpur.com/wp-content/uploads/2019/10/DSC_7535.jpg"
           alt=""
