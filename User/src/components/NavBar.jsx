@@ -12,6 +12,7 @@ function NavBar() {
 
   async function handleLogOutUser() {
     const respone = await logOutUserApi();
+    
     if (respone.success) {
       setIsLogedIn(false);
       navigate("/");
